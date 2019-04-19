@@ -3368,6 +3368,8 @@ in {
 
   nodeenv = callPackage ../development/python-modules/nodeenv { };
 
+  node2vec = callPackage ../development/python-modules/node2vec { };
+
   nose = callPackage ../development/python-modules/nose { };
 
   nose-cov = callPackage ../development/python-modules/nose-cov { };
